@@ -1,36 +1,33 @@
+import abraham from "./assets/img/abraham.jpeg"
+import almer from "./assets/img/almer.jpg"
+import heddy from "./assets/img/heddy.jpg"
+
+
 export default function App() {
   const mentors = [
     {
-      name: "Alex Chen",
-      role: "Algorithm Specialist",
-      experience: "5+ years at Google",
-      expertise: "Data Structures, Competitive Programming",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Abraham Gregorius",
+      role: "Main Mentor",
+      experience: "S-Class Competition Scheme - UREEKA",
+      expertise: "BINUS Widia Scholarship Awardee",
+      image: abraham,
       rating: "4.9",
     },
     {
-      name: "Sarah Williams",
-      role: "Programming Mentor",
-      experience: "Senior Developer at Microsoft",
-      expertise: "Python, Java, Web Development",
-      image: "/placeholder.svg?height=300&width=300",
-      rating: "4.8",
-    },
-    {
-      name: "David Kumar",
-      role: "AI & Machine Learning Expert",
-      experience: "PhD in Computer Science",
-      expertise: "Machine Learning, Deep Learning, AI",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Almer Valentino",
+      role: "Main Mentor",
+      experience: "S-Class Competition Scheme - JOLLYBEE",
+      expertise: "Algorithm and Programming: 100 (UTS) 100 (UAS)",
+      image: almer,
       rating: "4.9",
     },
     {
-      name: "Lisa Zhang",
-      role: "Cybersecurity Specialist",
-      experience: "Cybersecurity Consultant",
-      expertise: "Network Security, Ethical Hacking",
-      image: "/placeholder.svg?height=300&width=300",
-      rating: "4.7",
+      name: "Main Kurniawan",
+      role: "Main Mentor",
+      experience: "S-Class Product Scheme - SIGMA",
+      expertise: "Ex-Trainee Core Training Lab Assistant SLC BINUS",
+      image: heddy,
+      rating: "4.9",
     },
   ]
 
@@ -198,11 +195,11 @@ export default function App() {
               </span>
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Belajar dari para ahli dengan pengalaman industri terbaik dan track record yang terbukti
+              Belajar dari para mentor dengan pengalaman terbaik dan track record yang terbukti
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
             {mentors.map((mentor, index) => (
               <div key={index} className="group relative">
                 <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-3xl p-6 border border-white/20 hover:border-yellow-300/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/10">
