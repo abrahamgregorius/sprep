@@ -9,7 +9,7 @@ export default function App() {
       name: "Abraham Gregorius",
       role: "Main Mentor",
       experience: "S-Class Competition Scheme - UREEKA",
-      expertise: "BINUS Widia Scholarship Awardee",
+      expertise: "BINUS Widia Scholarship for Outstanding Achievers Awardee",
       image: abraham,
       rating: "4.9",
     },
