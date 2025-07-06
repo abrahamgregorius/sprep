@@ -22,7 +22,7 @@ export default function App() {
       rating: "4.9",
     },
     {
-      name: "Main Kurniawan",
+      name: "Heddy Kurniawan",
       role: "Main Mentor",
       experience: "S-Class Product Scheme - SIGMA",
       expertise: "Ex-Trainee Core Training Lab Assistant SLC BINUS",
