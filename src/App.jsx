@@ -128,13 +128,13 @@ export default function App() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
-              <button className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full text-white font-bold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/25">
+              <a href="https://forms.gle/uVXECPiMAr9cppSq9" className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-full text-white font-bold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/25">
                 <span className="relative z-10">Daftar Sekarang 🚀</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </button>
-              <button className="px-8 py-4 border-2 border-white/30 text-white rounded-full font-semibold text-lg backdrop-blur-sm hover:bg-white/10 hover:border-cyan-300 transition-all duration-300 hover:scale-105">
-                Learn More ✨
-              </button>
+              </a>
+              <a href="https://abrahamgregorius.notion.site/S-Prep-227cd62367708047a3edde2505cf6837?source=copy_link" className="px-8 py-4 border-2 border-white/30 text-white rounded-full font-semibold text-lg backdrop-blur-sm hover:bg-white/10 hover:border-cyan-300 transition-all duration-300 hover:scale-105">
+                Course Outline ✨
+              </a>
             </div>
           </div>
         </div>
@@ -316,13 +316,13 @@ export default function App() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <button className="group relative px-12 py-4 bg-gradient-to-r from-green-500 to-cyan-500 rounded-full text-white font-bold text-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25">
+              <a href="https://forms.gle/uVXECPiMAr9cppSq9" className="group relative px-12 py-4 bg-gradient-to-r from-green-500 to-cyan-500 rounded-full text-white font-bold text-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25">
                 <span className="relative z-10">Daftar Sekarang 🎯</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </button>
-              <button className="px-12 py-4 border-2 border-white/30 text-white rounded-full font-bold text-xl backdrop-blur-sm hover:bg-white/10 hover:border-cyan-300 transition-all duration-300 hover:scale-105">
+              </a>
+              <a href="https://wa.me/+6281311951704" className="px-12 py-4 border-2 border-white/30 text-white rounded-full font-bold text-xl backdrop-blur-sm hover:bg-white/10 hover:border-cyan-300 transition-all duration-300 hover:scale-105">
                 Hubungi Kami 💬
-              </button>
+              </a>
             </div>
           </div>
         </div>
